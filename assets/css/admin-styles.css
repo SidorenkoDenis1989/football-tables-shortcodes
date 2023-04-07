@@ -1,0 +1,61 @@
+.teams-ids-request-parameter {
+    display: flex;
+}
+.teams-ids-request-parameter-title {
+    min-width: 70px;
+}
+.teams-ids-request-parameter-title p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.teams-ids-request-parameter-value {
+    max-width: 500px;
+}
+.teams-ids-request-parameter-value p {
+    margin-top: 0;
+}
+.teams-ids-submit {
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: all 0.3s;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+.teams-ids-submit:hover {
+    color: #000;
+    background-color: #fff;
+}
+.teams-ids-submit-wrap {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.teams-ids-request-parameter-value input.invalid {
+    border: 1px solid red;
+}
+.teams-ids-table table {
+    border-collapse: collapse;
+}
+.teams-ids-table table td,
+.teams-ids-table table th {
+    font-size: 16px;
+    padding: 3px;
+    text-align: center;
+}
+.left,
+.right {
+    width: 50%;
+}
+.page-wrap {
+    display: flex;
+}

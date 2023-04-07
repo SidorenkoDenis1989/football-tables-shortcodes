@@ -1,0 +1,291 @@
+.football-table-wrap table {
+    margin-top: 0;
+    font-family: "Arial";
+    border: none;
+    /*table-layout: fixed;*/
+    max-width: none;
+    width: auto;
+    min-width: 100%;
+}
+div.football-table-wrap table tbody tr.footbal-table-link {
+    background-color: #fff;
+}
+.jet-popup__container {
+    opacity: 1 !important;
+}
+
+.football-table-wrap table td {
+    border: none;
+}
+
+.table-date {
+    font-family: "Arial";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #dcdcdc;
+    position: relative;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+#fixtures-table .ui-datepicker-trigger {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 10px;
+    background-color: unset;
+    border: none;
+    padding: 0;
+    font-weight: 600;
+    font-family: TitilliumWeb, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+}
+
+#fixtures-table .ui-datepicker-trigger:after {
+    content: '›';
+    position: absolute;
+    right: -15px;
+    top: -2px;
+    transform: rotate(90deg);
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+#ui-datepicker-div {
+    z-index: 10000 !important;
+}
+
+.ui-datepicker-calendar a {
+    text-decoration: none !important;
+    transition: all 0.3s;
+}
+
+.ui-state-hover {
+    top: 2px !important;
+    border: none !important;
+    font-weight: 700 !important;
+
+}
+.ui-datepicker .ui-datepicker-next {
+    right: 1px !important;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 1px !important;
+}
+
+.football-table-wrap table thead {
+    background-color: #eeeeee;
+    font-color: #fff;
+    font-weight: 600;
+}
+
+.football-table-wrap table tbody tr {
+    background-color: #e9e9e9;
+}
+
+.football-table-wrap table tbody tr:nth-child(2n) {
+    background-color: #dcdcdc;
+}
+
+.standing-header {
+    background-color: #1F4421;
+    padding: 8px;
+    font-family: "Arial";
+}
+
+.fixtures-team {
+    font-weight: bold;
+    width: calc(50% - 30px);
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.fixtures-team.fixtures-team__home {
+    text-align: right;
+    padding-left: 35px;
+}
+
+.fixtures-team.fixtures-team__away {
+    text-align: left;
+    padding-right: 35px;
+}
+
+.fixtures-score {
+    width: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    /* font-weight: 700; */
+}
+
+.score-wrap {
+    background-color: #1F4421;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.standing-header h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 20px;
+    font-family: "Cairo";
+}
+
+.fixtires-no-matches {
+    text-align: center;
+}
+
+.football-table-wrap a.view-full-table {
+    color: #1F4421;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.football-table-wrap a.view-full-table:hover{
+    text-decoration: underline;
+}
+
+.result-date-round {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#results-table table {
+    margin-bottom: 30px;
+}
+
+.mobile-calendar-wrap .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.matches-date {
+    width: 60px;
+    min-width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.matches-date.selected-date p,
+.mobile-calendar-wrap .matches-date.selected-date p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1F4421;
+    margin: 0;
+}
+.matches-date p,
+.mobile-calendar-wrap .matches-date p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.table-container {
+    margin-bottom: 20px;
+}
+
+#fixtures-table .table-container-row.football-table-link {
+    margin-top: -20px;
+}
+
+.table-container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e9e9e9;
+}
+#fixtures-table .table-container-row {
+    align-items: flex-start;
+}
+.table-container-row:nth-child(2n) {
+    background-color: #dcdcdc;
+}
+/* #fixtures-table .table-container-cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+.table-container-cell--short {
+    text-align: center;
+}
+.table-container-row.football-table-link {
+    background-color: #fff;
+}
+#fixtures-table .table-row {
+    justify-content: center;
+    position: relative;
+}
+#fixtures-table .table-row.table-title {
+    justify-content: flex-start;
+}
+#fixtures-table .standing-header {
+    position: relative;
+    z-index: 2;
+}
+.mobile-calendar-wrap.swiper-container {
+    padding: 0 27px;
+    background-color: #eee;
+}
+.mobile-calendar-wrap.swiper-container .swiper-button-prev {
+    left: 0;
+}
+.mobile-calendar-wrap.swiper-container .swiper-button-next {
+    right: 0;
+    transform: rotate(180deg);
+}
+.mobile-calendar-wrap.swiper-container .swiper-button-next,
+.mobile-calendar-wrap.swiper-container .swiper-button-prev {
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    width: 27px;
+    height: 100%;
+    margin-top: 0;
+    cursor: pointer;
+    -webkit-background-size: 12px 27px;
+    background-size: 12px 27px;
+    bottom: 0;
+    background-image: url('../img/arrow.svg');
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    pointer-events: unset !important;
+}
+.match-status {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 12px;
+}
+#fixtures-table .table-row.with-goals {
+    cursor: pointer;
+}
+#fixtures-table .table-row.with-goals .goal-details {
+    display: none;
+}
+#fixtures-table .table-row.with-goals.active .goal-details {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1;
+}
+@media screen and (max-width: 991px) {
+    .mobile-calendar-wrap{
+        display: flex;
+    }
+    #fixtures-table .ui-datepicker-trigger{
+        display: none;
+    }
+}
